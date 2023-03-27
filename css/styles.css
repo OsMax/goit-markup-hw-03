@@ -22,25 +22,15 @@ body{
     background-color: var(--bgc-main);
     color: var(--font-main);
     font-family: 'Roboto', sans-serif;
-    width: 1440px;
-    line-height: 1.5;
 }
 .list {
     margin: 0;
     padding: 0;;
     list-style-type: none;
-    display: inline-block;
-}
-.list > li{
-    display: inline-block;
 }
 
-.navigation, .contacts{
-    display: inline-block;
-}
 .contacts{
     font-style: normal;
-    margin: 0 0 0 292px;
 }
 
 /* SITE LINKS */
@@ -55,12 +45,12 @@ body{
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.02em;
+    line-height: 1.5;
     margin: 0 40px 0 0;
 }
 
 .site-nav:hover, .site-nav:focus{
     color: var(--bgc-btn-active);
-    text-decoration: underline;
 }
 
 .our-contacts{
@@ -70,32 +60,28 @@ body{
 .link-cont{
     color: var(--font-main);
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 .link-cont:hover, .link-cont:focus{
     color: var(--bgc-btn-active);
 }
-.our-mail{
-    margin-right: 40px;
-}
+
 /* Sections */
 
 .hero{
-    background-color: var(--bgc-hero-footer);
     text-align: center;
-    height: 600px;
+    background-color: var(--bgc-hero-footer);
 }
 .hero-title{
     margin: auto;
-    padding: 188px 0 0 0;
     color: var(--font-white);
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    text-align: center;
     letter-spacing: 0.02em;
-    width: 540px;
+    width: 496px;
 }
 
 .button{
@@ -104,9 +90,6 @@ body{
 }
 
 .order-service{
-    margin: 48px 0 0 0;
-    width: 168px;
-    height: 56px;
     color: var(--font-white);
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -124,16 +107,15 @@ body{
 }
 
 .section{
-    align-items: center;
-    text-align: center;
-    margin-top: 120px;
+    padding: 120px 0 0 0;
 }
+
 .section-title{
+    text-align: center;
     color: var(--font-nav);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin: 0 0 72px 0;
@@ -141,15 +123,11 @@ body{
 .qalities {
     padding: 0;
     margin: 0;
-    width: 1128;
 }
 
 .qality {
-    text-align: left;
-    width: 264px;
     margin: 0;
     padding: 0;
-    padding-right: 24px;
 }
 .qality:last-child{
     padding-right: 0;
@@ -167,14 +145,13 @@ body{
     margin: 8px 0 0 0;
     padding: 0;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
 
 /* Logo */
 .logo{
-    margin: 24px 76px 24px 156px;
     padding: 0;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
@@ -192,18 +169,15 @@ body{
 }
 
 .top-line{
-    border: 1px solid var(--border-color);
-    padding: 24px 0 24px 0;
+    border-bottom: 1px solid var(--border-color);
 }
 
 /* Members */
 .team{
+    padding: 120px 0 120px 0;
     background-color: var(--bgc-team);
-    padding: 0 0 120px 0;
 }
-.team-title{
-    padding-top: 120px;
-}
+
 .team-list{
     background-color: var(--font-white);
 }
@@ -212,14 +186,13 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     letter-spacing: 0.02em;
     color: var(--font-nav);
 }
 .member-desc{
     font-size: 16px;
-    text-align: center;
     letter-spacing: 0.02em;
+    line-height: 1.5;
 }
 
 /* footer */
@@ -229,14 +202,11 @@ body{
     background-color: var(--bgc-hero-footer);
 }
 
-.foot > .logo
-{
-    margin-top: 100px;
-}
 .foot-text{
-    margin: 16px 0 0 156px;
+    margin: 16px 0 0 0;
     width: 264px;
     font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--font-logo-foot);
 }
@@ -258,7 +228,7 @@ body{
 
 /* PAGE PORTFOLIO */
 .filters{
-    margin-top: 96px;
+    padding: 96px 0 120px 0;
 }
 
 .applications{
@@ -288,14 +258,14 @@ body{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    padding: 32px 0 0 16px;
+    margin: 32px 0 0 16px;
     letter-spacing: 0.02em;
     margin: 0;
 }
 
 .app-text {
     color: var(--font-main);
-    padding: 8px 0 32px 16px;
+    margin: 8px 0 0 16px;
     margin: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -304,9 +274,7 @@ body{
 
 .app-list {
     padding: 0;
-    margin: 0 24px 48px 0;
     text-align: left;
-    border: 1px solid var(--border-color);
 }
 
 .app-list:nth-child(3n) {
