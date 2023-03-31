@@ -17,6 +17,7 @@
     --font-btn-cat: #4D5AE5;
 
     --border-color:#E7E9FC;
+    --portfolio-marking: 3;
 }
 /**
   |============================
@@ -169,8 +170,11 @@ body{
 }
 
 /* sections */
-.section{    
-    margin-top: 120px;
+.section{
+    padding-top: 120px;
+}
+.section-doing{
+    padding-bottom: 120px;
 }
 
 .section-title{
@@ -224,7 +228,7 @@ body{
 
 /* Members */
 .team {
-    padding: 120px 0 120px 0;
+    padding: 120px 0;
     background-color: var(--bgc-team);
 }
 
@@ -341,11 +345,16 @@ body{
 .applications{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 72px;
+    margin-left: -24px;
+    margin-top: -48px;
 }
 .filter-list{
     display: flex;
     justify-content: center;
+    margin-bottom: 72px;
+}
+.filter-item:not(:last-child){
+    margin-right: 24px;
 }
 .filter-button {
     font-family: "Roboto", sans-serif;
@@ -367,9 +376,10 @@ body{
 }
 
 .app-cont{
-    padding-left: 16px;
     padding-top: 32px;
+    padding-right: 16px;
     padding-bottom: 32px;
+    padding-left: 16px;
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -396,21 +406,10 @@ body{
 .app-list {
     padding: 0;
     text-align: left;
-}
-.app-list:not(:nth-of-type(3n)){
-    margin-right: 24px;
-}
-
-.app-list:not(:nth-last-of-type(-n+3)){
-    margin-bottom: 48px;
+    margin-left: 24px;
+    margin-top: 48px;
+    flex-basis: calc(100% / var(--portfolio-marking) - 24px);
 }
 
-.app-list:nth-child(3n) {
-    margin-right: 0;
-}
-
-.filter-item:not(:last-child) {
-    margin-right: 24px;
-}
 
 
