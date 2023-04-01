@@ -72,6 +72,7 @@ body{
 }
 .head-cont{
     display: flex;
+    align-items: center;
 }
 .navigation{
     display: inherit;
