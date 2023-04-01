@@ -277,7 +277,7 @@ body{
   |============================
 */
 .logo{
-    display: block;    
+    display: inline-block;    
     padding: 0;
     text-transform: uppercase;
     font-family: 'Raleway', sans-serif;
