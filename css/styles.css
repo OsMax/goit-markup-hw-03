@@ -85,8 +85,7 @@ body{
 .site-nav {
     display: block;
     margin: 0;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     color: var(--font-nav);
     font-weight: 500;
     font-size: 16px;
@@ -119,13 +118,11 @@ body{
 
 .link-cont{
     display: block;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 0;
     color: var(--font-main);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 24px;
 }
 
 .link-cont:hover, .link-cont:focus{
@@ -396,11 +393,12 @@ body{
     border-bottom: 1px solid var(--border-color);
 }
 .app-title {
+    margin: 0;
+    margin-bottom: 8px;
     color: var(--font-nav);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    margin-bottom: 8px;
     letter-spacing: 0.02em;
 }
 
